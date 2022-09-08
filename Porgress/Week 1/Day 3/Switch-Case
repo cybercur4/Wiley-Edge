@@ -1,0 +1,17 @@
+public class helloworld {
+	public String switchh(int n) {
+		switch(n) {
+		case 1:
+			return "one";
+		
+		case 2:
+			return "two";
+		default:
+			return "Wrong";
+		}
+		}
+	
+	public static void main(String args[]) {
+	helloworld hw=new helloworld();
+	System.out.println(hw.switchh(1));
+	}
