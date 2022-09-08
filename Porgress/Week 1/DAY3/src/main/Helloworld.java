@@ -1,13 +1,13 @@
 package main;
 
 public class Helloworld {
-	public int max(int a, int b) {
+	public int max(int a, int b) { //If-Else
 		if(a>b)
 			return a;
 		else
 			return b;
 	}
-	public String switchh(int n) {
+	public String switchh(int n) { //Switch Case
 		switch(n) {
 		case 1:
 			return "one";
@@ -18,7 +18,7 @@ public class Helloworld {
 			return "Wrong";
 		}
 		}
-	public int sum(int n) {
+	public int sum(int n) {  //While Loop
 		int sume=0;
 		while(n!=0) {
 			sume+=n;
@@ -26,7 +26,7 @@ public class Helloworld {
 		}
 		return sume;
 	}
-	public int forl(int n) {
+	public int forl(int n) { //For Loop
 		int sume=0;
 		for(int i=0;i<n;i++) {
 		if(i==1)
