@@ -1,6 +1,7 @@
 # Wiley-Edge
 
-## Progress
+## Description
+Day to Day Progress during Wiley Edge Internship
 
 ### Week 1
 
