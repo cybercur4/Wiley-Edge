@@ -1,0 +1,15 @@
+public class helloworld {
+	public int sum(int n) {
+		int sume=0;
+		while(n!=0) {
+			sume+=n;
+			n--;
+		}
+		return sume;
+	}
+	
+	public static void main(String args[]) {
+	helloworld hw=new helloworld();
+	System.out.println(hw.sum(5));
+	}
+	}
