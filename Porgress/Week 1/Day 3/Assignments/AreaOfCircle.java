@@ -22,7 +22,7 @@ public class Question1 {
 		Circle circle1=new Circle(radius);
 		area=circle1.calculateArea();
 		System.out.println("Area of circle with radius "+radius+" is " +area);
-		radius=5.6;
+		radius=5.6; 
 		Circle circle2=new Circle(radius);
 		area=circle2.calculateArea();
 		System.out.println("Area of circle with radius "+radius+" is " +area);
