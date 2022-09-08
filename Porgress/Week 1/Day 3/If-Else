@@ -1,0 +1,12 @@
+public class helloworld {
+	public int max(int a, int b) {
+		if(a>b)
+			return a;
+		else
+			return b;
+	}
+  public static void main(String args[]) {
+	helloworld hw=new helloworld();
+	System.out.println(hw.max(2,3));
+	}
+	}
