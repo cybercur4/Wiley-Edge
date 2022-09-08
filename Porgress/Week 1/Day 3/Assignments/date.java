@@ -1,7 +1,7 @@
 /*Create a class Date with following details:
 Attributes: dd,mm,yyyy.
 Methods: displayDate(),checkDate().
-
+ 
 (Use the concept of parameterized constructor, code recommendation and 'this' keyword) */
 
 
