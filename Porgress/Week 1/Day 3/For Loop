@@ -1,0 +1,19 @@
+public class helloworld {
+	public int forl(int n) {
+		int sume=0;
+		for(int i=0;i<n;i++) {
+		if(i==1)
+			continue;
+		else if(i==n-2)
+			break;
+		else
+			sume+=i;
+		}
+		return sume;
+	}
+	
+	public static void main(String args[]) {
+	helloworld hw=new helloworld();
+	System.out.println(hw.forl(5));
+	}
+	}
