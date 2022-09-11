@@ -1,7 +1,7 @@
 Recommendation to follow: 
 1. There is no default return types for methods in Java. In java it is compulsory that you write the return type
 2. There is default access specifier for all the  methods and classes as "default", by default it is not "public".
-3. Write methods with return statement wherever possible
+3. Write methods with return statement wherever possible 
 4. Do not write any business logic in public static void main 
 5. You can create objects in "any method", it is not only psvm where you create objects
 6. Do not write any business logic without any method. *&****
