@@ -13,3 +13,8 @@ Day to Day Progress during Wiley Edge Internship
 - Switch Case
 - For Loop
 - While Loop
+
+#### Day 4
+
+#### Day 5
+- Displaying Details of Employee(Assignment)
