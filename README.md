@@ -22,6 +22,6 @@ Day to Day Progress during Wiley Edge Internship
 - Displaying Details of Employee
 
 #### Day 2
--Find frequency of Each Character in String.
--Reverse The Given String
--Check Whether Email is Valid or Not.
+- Find frequency of Each Character in String.
+- Reverse The Given String
+- Check Whether Email is Valid or Not.
