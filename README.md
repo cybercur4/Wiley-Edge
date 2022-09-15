@@ -19,4 +19,9 @@ Day to Day Progress during Wiley Edge Internship
 ### Week 2
 
 #### Day 1
-- Displaying Details of Employee(Assignment)
+- Displaying Details of Employee
+
+#### Day 2
+-Find frequency of Each Character in String.
+-Reverse The Given String
+-Check Whether Email is Valid or Not.
