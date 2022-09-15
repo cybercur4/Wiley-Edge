@@ -25,3 +25,4 @@ Day to Day Progress during Wiley Edge Internship
 - Find frequency of Each Character in String.
 - Reverse The Given String
 - Check Whether Email is Valid or Not.
+- Check Whether First and Last element of array is equal.
