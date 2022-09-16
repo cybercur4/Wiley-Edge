@@ -13,6 +13,10 @@ enum AccountType{
 	}
 	
 }
+
+class DepositAmountException extends Exception{
+	
+}
 class BankAccount{
 	int accountid;
 	String name;
@@ -22,7 +26,9 @@ class BankAccount{
 		this.name=name;
 		this.type=type;
 	}
-	double calculateTotalInterest(double amount,double years) {
+	double calculateTotalInterest(double amount,double years) throws DepositAmountException {
+		if(amount<1)
+			throw new DepositAmountException();
 		AccountType a1=AccountType.INVALID;
 		switch(type) {
 		case 1:
@@ -40,12 +46,12 @@ class BankAccount{
 }
 
 public class Question6 {
-	public static void main(String args[]) {
+	public static void main(String args[]) throws DepositAmountException {
 		BankAccount account1=new BankAccount(1,"Shahzeb",1);
 		System.out.println("TOTAL INTEREST= "+account1.calculateTotalInterest(12000, 2));
 		BankAccount account2=new BankAccount(2,"Akash",2);
 		System.out.println("TOTAL INTEREST= "+account2.calculateTotalInterest(12000, 2));
 		BankAccount account3=new BankAccount(1,"Shahzeb",3);
-		System.out.println("TOTAL INTEREST= "+account3.calculateTotalInterest(12000, 2));
+		System.out.println("TOTAL INTEREST= "+account3.calculateTotalInterest(-1, 2));
 	}
 }
